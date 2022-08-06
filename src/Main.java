@@ -26,5 +26,36 @@ public class Main {
 
         blackHole[67] = 23;
 
+        // task1
+
+        int[] superMassive = new int[]{1,2,3};
+        double[] doubleMassive = new double[]{1.57, 7.654, 9.986};
+        boolean[] toBeOrNotToBe = {false,true,true};
+
+        // task2
+
+        for (int a=0; a<3; a++) {
+            if (a == superMassive.length - 1 ){
+                System.out.println(superMassive[a]);}
+            else
+            {System.out.print(superMassive[a] + ", ");}
+        }
+        for (int a=0; a<3; a++) {
+            if (a == doubleMassive.length - 1) {
+                System.out.println(doubleMassive[a]);
+            } else {
+                System.out.print(doubleMassive[a] + ", ");
+            }
+        }
+        for (int a=0; a<3; a++) {
+            if (a == toBeOrNotToBe.length - 1) {
+                System.out.println(toBeOrNotToBe[a]);
+            } else {
+                System.out.print(toBeOrNotToBe[a] + ", ");
+            }
+        }
+        //task3
+
+
     }
 }
